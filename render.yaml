@@ -1,0 +1,9 @@
+services:
+  - type: static_site
+    name: ledgeman-marketing
+    root_dir: .
+    publish_directory: .
+    routes:
+      - path: "/*"
+        methods: ["GET"]
+        src: "/index.html"
