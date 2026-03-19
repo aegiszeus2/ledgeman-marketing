@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // Client-side router: load admin UI if path includes /admin
+        if (location.pathname.startsWith('/admin')) {
+            document.write('<script>window.location.replace("/admin.html");<\/script>');
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ledgerman — Construction Management Software by PMs for PMs</title>

@@ -4,9 +4,6 @@ services:
     root_dir: .
     publish_directory: .
     routes:
-      - path: "/admin/*"
-        methods: ["GET"]
-        src: "/admin.html"
       - path: "/*"
         methods: ["GET"]
         src: "/index.html"
