@@ -1,6 +1,6 @@
 services:
   - type: static_site
-    name: ledgeman-marketing
+    name: ledgerman-marketing
     root_dir: .
     publish_directory: .
     routes:
